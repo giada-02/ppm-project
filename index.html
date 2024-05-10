@@ -161,7 +161,7 @@
                 </div>
             </a>
         </article>
-        <video poster="https://placehold.co/1280x720/black/white?text=NEWS+LIVE"  controls class="live-news">
+        <video poster="https://placehold.co/1280x720/black/white?text=NEWS+LIVE" controls class="live-news">
             <source src="https://placehold.co/1280x720.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -293,7 +293,8 @@
                     </picture>
                     <div class="article-components">
                         <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                        <p class="article-description">Etiam rutrum sodales massa, vel posuere ex commodo ac. Sed nec nisi nulla.</p>
+                        <p class="article-description">Etiam rutrum sodales massa, vel posuere ex commodo ac. Sed nec
+                            nisi nulla.</p>
                         <time class="article-last-update">2h ago</time>
                     </div>
                 </a>
@@ -306,7 +307,8 @@
                     </picture>
                     <div class="article-components">
                         <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                        <p class="article-description">Etiam rutrum sodales massa, vel posuere ex commodo ac. Sed nec nisi nulla.</p>
+                        <p class="article-description">Etiam rutrum sodales massa, vel posuere ex commodo ac. Sed nec
+                            nisi nulla.</p>
                         <time class="article-last-update">May 1</time>
                     </div>
                 </a>
@@ -319,7 +321,8 @@
                     </picture>
                     <div class="article-components">
                         <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                        <p class="article-description">Etiam rutrum sodales massa, vel posuere ex commodo ac. Sed nec nisi nulla.</p>
+                        <p class="article-description">Etiam rutrum sodales massa, vel posuere ex commodo ac. Sed nec
+                            nisi nulla.</p>
                         <time class="article-last-update">Apr 30</time>
                     </div>
                 </a>
@@ -340,8 +343,9 @@
                     </picture>
                     <div class="article-components">
                         <h3 class="article-title">Title</h3>
-                        <p class="article-description">Sed venenatis a orci vel maximus. Nam luctus et est non tincidunt.
-                            <br>Phasellus interdum nibh vel laoreet feugiat.</p>
+                        <p class="article-description">Sed venenatis a orci vel maximus. Nam luctus et est non
+                            tincidunt.
+                            Phasellus interdum nibh vel laoreet feugiat.</p>
                         <time class="article-last-update">2h ago</time>
                     </div>
                 </a>
@@ -363,8 +367,9 @@
                     </picture>
                     <div class="article-components">
                         <h3 class="article-title">Title</h3>
-                        <p class="article-description">Sed venenatis a orci vel maximus. Nam luctus et est non tincidunt.
-                            <br>Phasellus interdum nibh vel laoreet feugiat.</p>
+                        <p class="article-description">Sed venenatis a orci vel maximus. Nam luctus et est non
+                            tincidunt.
+                            Phasellus interdum nibh vel laoreet feugiat.</p>
                         <time class="article-last-update">Apr 30</time>
                     </div>
                 </a>
@@ -384,8 +389,9 @@
                     </picture>
                     <div class="article-components">
                         <h3 class="article-title">Title</h3>
-                        <p class="article-description">Sed venenatis a orci vel maximus. Nam luctus et est non tincidunt.
-                            <br>Phasellus interdum nibh vel laoreet feugiat.</p>
+                        <p class="article-description">Sed venenatis a orci vel maximus. Nam luctus et est non
+                            tincidunt.
+                            Phasellus interdum nibh vel laoreet feugiat.</p>
                         <time class="article-last-update">Updated 3d ago</time>
                     </div>
                 </a>
@@ -404,96 +410,90 @@
         <a class="more-bottom" href="https://example.com" title="Read More About This">More ></a>
     </section>
     <section class="sign-up-section">
-        <h3>Sign Up for Breaking News Alert</h3>
+        <h2>Sign Up for Breaking News Alerts</h2>
         <p>Be in the know. Get the latest breaking news delivered straight to your inbox.</p>
-        <div id="form">
+        <div class="sign-up-form">
             <img src="https://placehold.co/200/b50505/white?text=Breaking\nNews\nALERTS" alt="Breaking News Alerts">
-            <div id="form-sign-up">
-                <form action="https://example.com" method="post">
-                    <input type="email" name="email" id="email" placeholder="Enter your email">
-                    <button type="submit">Sign Up</button>
-                </form>
-                <p>By signing up you agree to News <a href="#footer">Terms of Use</a>
+            <form class="form" action="https://example.com">
+                <div class="email-sign-up">
+                    <input type="email" name="email" id="email" placeholder="enter your email">
+                    <button type="submit" id="sign-up-button">Sign Up</button>
+                </div>
+                <label for="email">By signing up you agree to News <a href="#footer">Terms of Use</a>
                     and acknowledge the data practices in our <a href="#footer">Privacy Policy</a>
-                </p>
-                <p>
+                </label>
+                <div class="check-sign-up">
                     <input type="checkbox" name="updates" id="updates">
                     <label for="updates">Receive Newsletters and Special Offers. Lorem ipsum dolor sit amet, consectetur
                         adipiscing elit. Integer hendrerit ante nisl, et cursus sem gravida vel. Pellentesque habitant
-                        morbi.</label>
-                </p>
-            </div>
+                        morbi.
+                    </label>
+                </div>
+            </form>
+        </div>
+        <a href="https://example.com" title="Newsletters">See All Newsletters ></a>
+    </section>
+    <section class="videos-section">
+        <h2>Top Videos</h2>
+        <a href="https://example.com" class="live-news-show" title="Watch Live">
+            <video poster="https://placehold.co/1280x720/004a9d/c3cedb?text=NEWS+24/7" controls>
+                <source src="https://placehold.co/1280x720.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <h3 class="video-title">News 24/7</h3>
+        </a>
+        <div class="videos-container">
+            <article class="video-article">
+                <a href="https://example.com" title="Watch Now">
+                    <video poster="https://placehold.co/1280x720/white/black" controls class="live-news">
+                        <source src="https://placehold.co/1280x720.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="article-components">
+                        <h3 class="article-title">Duis efficitur libero ex, vitae porta orci bibendum eget.</h3>
+                        <time class="article-last-update">Updated 2h ago</time>
+                    </div>
+                </a>
+            </article>
+            <article class="video-article">
+                <a href="https://example.com" title="Watch Now">
+                    <video poster="https://placehold.co/1280x720/white/black" controls class="live-news">
+                        <source src="https://placehold.co/1280x720.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="article-components">
+                        <h3 class="article-title">Duis efficitur libero ex, vitae porta orci bibendum eget.</h3>
+                        <time class="article-last-update">Apr 31</time>
+                    </div>
+                </a>
+            </article>
+            <article class="video-article">
+                <a href="https://example.com" title="Watch Now">
+                    <video poster="https://placehold.co/1280x720/white/black" controls class="live-news">
+                        <source src="https://placehold.co/1280x720.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="article-components">
+                        <h3 class="article-title">Duis efficitur libero ex, vitae porta orci bibendum eget.</h3>
+                        <time class="article-last-update">Updated 3d ago</time>
+                    </div>
+                </a>
+            </article>
+            <article class="video-article">
+                <a href="https://example.com" title="Watch Now">
+                    <video poster="https://placehold.co/1280x720/white/black" controls class="live-news">
+                        <source src="https://placehold.co/1280x720.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="article-components">
+                        <h3 class="article-title">Duis efficitur libero ex, vitae porta orci bibendum eget.</h3>
+                        <time class="article-last-update">Updated 3d ago</time>
+                    </div>
+                </a>
+            </article>
         </div>
     </section>
-    <section class="live-section-videos">
-        <article class="live-video">
-            <h2>Top Videos</h2>
-            <a class="live-news-show">
-                <video poster="https://placehold.co/1280x720/white/black" controls class="live-news">
-                    <source src="https://placehold.co/1280x720.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <h2>News 24/7</h2>
-            </a>
-        </article>
-        <article>
-            <a href="https://example.com/" title="Watch Live">
-                <video poster="https://placehold.co/1280x720/white/black" controls class="live-news">
-                    <source src="https://placehold.co/640x360.mp4" type="video/mp4">
-                    <source src="https://placehold.co/1280x720.mp4" type="video/mp4" media="(min-width: 1280px)">
-                    Your browser does not support the video tag.
-                </video>
-                <div class="article-components">
-                    <h3 class="article-title">Title</h3>
-                    <p class="article-description">Description</p>
-                    <time class="article-last-update">Updated 2h ago</time>
-                </div>
-            </a>
-        </article>
-        <article>
-            <a href="https://example.com/" title="Watch Live">
-                <video poster="https://placehold.co/1280x720/white/black" controls class="live-news">
-                    <source src="https://placehold.co/640x360.mp4" type="video/mp4">
-                    <source src="https://placehold.co/1280x720.mp4" type="video/mp4" media="(min-width: 1280px)">
-                    Your browser does not support the video tag.
-                </video>
-                <div class="article-components">
-                    <h3 class="article-title">Title</h3>
-                    <p class="article-description">Description</p>
-                    <time class="article-last-update">Apr 31</time>
-                </div>
-            </a>
-        </article>
-        <article>
-            <a href="https://example.com/" title="Watch Live">
-                <video poster="https://placehold.co/1280x720/white/black" controls class="live-news">
-                    <source src="https://placehold.co/640x360.mp4" type="video/mp4">
-                    <source src="https://placehold.co/1280x720.mp4" type="video/mp4" media="(min-width: 1280px)">
-                    Your browser does not support the video tag.
-                </video>
-                <div class="article-components">
-                    <h3 class="article-title">Title</h3>
-                    <p class="article-description">Description</p>
-                    <time class="article-last-update">Updated 3d ago</time>
-                </div>
-            </a>
-        </article>
-        <article>
-            <a href="https://example.com/" title="Watch Live">
-                <video poster="https://placehold.co/1280x720/white/black" controls class="live-news">
-                    <source src="https://placehold.co/640x360.mp4" type="video/mp4">
-                    <source src="https://placehold.co/1280x720.mp4" type="video/mp4" media="(min-width: 1280px)">
-                    Your browser does not support the video tag.
-                </video>
-                <div class="article-components">
-                    <h3 class="article-title">Title</h3>
-                    <p class="article-description">Description</p>
-                    <time class="article-last-update">Updated 3d ago</time>
-                </div>
-            </a>
-        </article>
-    </section>
-    <section>
+    <section class="articles-about">
         <article>
             <a href="https://example.com/" title="Read Full Article">
                 <picture>
