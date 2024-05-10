@@ -642,12 +642,6 @@ article p {
     }
 }
 
-/* ARTICLES ABOUT */
-.articles-about {
-    display: none;
-}
-
-
 
 /* media query on all main children */
 @media (min-width: 1020px) and (max-width: 1359px) {
@@ -662,4 +656,18 @@ article p {
         padding-right: calc(16px + (100vw - 1360px) / 2);
         padding-left: calc(16px + (100vw - 1360px) / 2);
     }
+}
+
+#cookie {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #000a3c;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
