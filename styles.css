@@ -88,7 +88,12 @@ a:hover {
     text-decoration: none;
 }
 
-@media (min-width: 1020px){
+#menu {
+    cursor: pointer;
+}
+
+/* DESKTOP */
+@media (min-width: 1020px) {
     #menu {
         display: none;
     }
@@ -130,7 +135,7 @@ a:hover {
     bottom: 3px;
 }
 
-/* DROPDOWN */
+/* FLYOUT */
 .flyout-content {
     display: none;
     font-size: 0.8rem;
@@ -179,6 +184,61 @@ a:hover {
 #nav-menu>li:last-child>a:hover {
     text-decoration: none;
 }
+
+/* MENU PANEL and OVERLAY*/
+.panel-closed {
+    transform: translateX(-100%);
+}
+.panel-open {
+    transform: translateX(0);
+}
+.panel {
+    transition: transform 0.3s ease-in-out;
+    position: absolute;
+    background-color: white;
+    top: 48px;
+    left: 0;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: 0;
+    border: 1px solid #E8E8E8;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+}
+
+.panel .panel-inner-list {
+    font-size: 1rem;
+    font-weight: normal;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    padding: 0;
+    margin-top: 20px;
+}
+.panel .panel-item {
+    margin-bottom: 25px;
+}
+.panel .panel-item a:hover {
+    text-decoration: none;
+}
+
+.overlay-closed {
+    display: none;
+}
+.overlay-open {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 48px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
 
 /* FOOTER */
 .footer {
@@ -279,7 +339,8 @@ a:hover {
     margin: 0;
 }
 
-@media (min-width: 1020px){
+/* DESKTOP */
+@media (min-width: 1020px) {
     .footer {
         padding: 80px 20px 50px;
     }
@@ -298,6 +359,7 @@ a:hover {
     }
 }
 
+/* HEADER padding responsive */
 @media (min-width: 1020px) {
     .header {
         padding-right: calc(16px + (100vw - 1020px) / 2);

@@ -8,12 +8,106 @@
     <link rel="stylesheet" href="./styles-main.css">
 </head>
 <body>
+<div id="overlay" class="overlay-closed"></div>
 <header class="header top-header">
-    <div id="menu">
-        <a href="#">
-            <img src="./images/apps-grid-icon.svg" alt="Menu">
-        </a>
-    </div>
+    <img src="./images/apps-grid-icon.svg" alt="Menu" id="menu">
+    <ul id="panel" class="panel panel-closed">
+        <li class="panel-item">
+            <a href="#">Latest</a>
+            <ul class="panel-inner-list">
+                <li><a href="#">Italy</a></li>
+                <li><a href="#">World</a></li>
+                <li><a href="#">Politics</a></li>
+                <li><a href="#">Entertainment</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Science</a></li>
+                <li><a href="#">Space</a></li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Health</a></li>
+                <li><a href="#">Weather</a></li>
+            </ul>
+        </li>
+        <li class="panel-item">
+            <a href="#">Local News</a>
+            <ul class="panel-inner-list">
+                <li><a href="#">Abruzzo</a></li>
+                <li><a href="#">Basilicata</a></li>
+                <li><a href="#">Calabria</a></li>
+                <li><a href="#">Campania</a></li>
+                <li><a href="#">Emilia-Romagna</a></li>
+                <li><a href="#">Friuli-Venezia Giulia</a></li>
+                <li><a href="#">Lazio</a></li>
+                <li><a href="#">Liguria</a></li>
+                <li><a href="#">Lombardia</a></li>
+                <li><a href="#">Marche</a></li>
+                <li><a href="#">Molise</a></li>
+                <li><a href="#">Piemonte</a></li>
+                <li><a href="#">Puglia</a></li>
+                <li><a href="#">Sardegna</a></li>
+                <li><a href="#">Sicilia</a></li>
+                <li><a href="#">Toscana</a></li>
+                <li><a href="#">Trentino-Alto Adige</a></li>
+                <li><a href="#">Umbria</a></li>
+                <li><a href="#">Valle d'Aosta</a></li>
+                <li><a href="#">Veneto</a></li>
+            </ul>
+        </li>
+        <li class="panel-item">
+            <a href="#">Live</a>
+            <ul class="panel-inner-list">
+                <li><a href="#">News 24/7</a></li>
+                <li><a href="#">Napoli</a></li>
+                <li><a href="#">Bologna</a></li>
+                <li><a href="#">Roma</a></li>
+                <li><a href="#">Genova</a></li>
+                <li><a href="#">Milano</a></li>
+                <li><a href="#">Torino</a></li>
+                <li><a href="#">Bari</a></li>
+                <li><a href="#">Cagliari</a></li>
+                <li><a href="#">Palermo</a></li>
+                <li><a href="#">Firenze</a></li>
+                <li><a href="#">Perugia</a></li>
+                <li><a href="#">Venezia</a></li>
+            </ul>
+        </li>
+        <li class="panel-item">
+            <a href="#">Shows</a>
+            <ul class="panel-inner-list">
+                <li><a href="#">NewsShow</a></li>
+                <li><a href="#">NewsShow</a></li>
+                <li><a href="#">NewsShow</a></li>
+                <li><a href="#">NewsShow</a></li>
+                <li><a href="#">NewsShow</a></li>
+                <li><a href="#">NewsShow</a></li>
+                <li><a href="#">NewsShow</a></li>
+                <li><a href="#">NewsShow</a></li>
+                <li><a href="#">NewsShow</a></li>
+                <li><a href="#">NewsShow</a></li>
+                <li><a href="#">NewsShow</a></li>
+                <li><a href="#">NewsShow</a></li>
+                <li><a href="#">NewsShow</a></li>
+                <li><a href="#">NewsShow</a></li>
+                <li><a href="#">NewsShow</a></li>
+                <li><a href="#">NewsShow</a></li>
+                <li><a href="#">NewsShow</a></li>
+                <li><a href="#">NewsShow</a></li>
+            </ul>
+        </li>
+        <li class="panel-item"><a href="#">News Special</a></li>
+        <li class="panel-item"><a href="#">Photos</a></li>
+        <li class="panel-item"><a href="#">Podcasts</a></li>
+        <li class="panel-item"><a href="#">In Depth</a></li>
+        <li class="panel-item"><a href="#">Newsletters</a></li>
+        <li class="panel-item"><a href="#">Download Our App</a></li>
+        <li class="panel-item"><a href="#">News Team</a></li>
+        <li class="panel-item"><a href="#">Executive Team</a></li>
+        <li class="panel-item"><a href="#">News Store</a></li>
+        <li class="panel-item"><a href="#">Join our Community</a></li>
+        <li class="panel-item"><a href="#">Work with us</a></li>
+        <li class="panel-item"><a href="#">Advertise with us</a></li>
+        <li class="panel-item"><a href="#">License our Content</a></li>
+        <li class="panel-item"><a href="#">Support us</a></li>
+    </ul>
     <nav class="top-header-nav">
         <ul class="nav-container" id="nav-menu">
             <li class="flyout">
@@ -52,7 +146,7 @@
                     <li><a href="#">Toscana</a></li>
                     <li><a href="#">Trentino-Alto Adige</a></li>
                     <li><a href="#">Umbria</a></li>
-                    <li><a href="#">valle d'Aosta</a></li>
+                    <li><a href="#">Valle d'Aosta</a></li>
                     <li><a href="#">Veneto</a></li>
                 </ul>
             </li>
@@ -519,6 +613,7 @@
         <li><a href="#footer"><img src="https://placehold.co/40" alt="Youtube" title="Youtube"></a></li>
     </ul>
 </footer>
-<button id="cookie">Gestisci i Cookie</button>
+<button id="cookies">Handle Cookies</button>
+<script src="script.js"></script>
 </body>
 </html>
